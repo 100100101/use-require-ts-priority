@@ -1,0 +1,10 @@
+{
+  "name": "use-require-ts-priority",
+  "version": "1.0.0",
+  "description": "Require and import ts files with first priority",
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
