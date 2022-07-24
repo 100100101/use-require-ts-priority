@@ -22,7 +22,6 @@ export default () => {
             }
         }
         const requiredModule = originalRequire.call(this, name)
-        // console.log('requiredModule:', name)
 
         if (isRequireTsFile) {
             return requiredModule.default
