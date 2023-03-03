@@ -1,6 +1,6 @@
+/// <reference types="node" />
 import fs from 'node:fs'
 const Module = require('node:module')
-// declare const Module: any
 export default () => {
     const originalRequire = Module.prototype.require
     Module.prototype.require = function (name) {
