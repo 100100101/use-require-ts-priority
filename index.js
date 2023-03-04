@@ -1,2 +1,1 @@
-const packageAutoTsc = require('package-auto-tsc')
-module.exports = packageAutoTsc(__dirname)
+module.exports = require('package-auto-tsc')(__dirname)
